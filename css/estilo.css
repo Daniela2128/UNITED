@@ -75,13 +75,26 @@ h1{
     margin:1px;
     }
     #Servicios img{
-    width:100%;
+    width:70%;
     max-width:300px;
     
     }
+    .serv{
+        margin: 60px;
+
+    }
+    .serv img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border:7px solid purple;
+
+
+    }
+
    #productos{
         background: purple;
-        color: gainsboro;
+        color: grey;
         text-align: center;
         padding: 30px;
     }
@@ -104,33 +117,123 @@ h1{
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        border:7px solid #fff;
+        border:7px solid grey;
 
 
     }
-     #guarderia{
+     #opcion{
         background: #fff;
         color: purple;
         text-align: center;
         padding: 30px;
     }
-    #guarderia h2{
+    #opcion h1{
         padding: 15px;
         text-transform: uppercase;
 
     }
-    #guarderia .contenedor{
+    #opcion .contenedor{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
 
     }
-    .serv-mascota{
+    .cont{
         margin:60px;
     }
-    .serv-mascota{
+    .cont img{
         width: 100px;
         height: 100px;
         border-radius: 50%;
         border:7px solid purple;
+    }
+
+
+
+
+    #promocion{
+        background: purple;
+        color: grey;
+        text-align: center;
+        padding: 30px;
+    }
+    #promocion h1{
+        padding: 15px;
+        text-transform: uppercase;
+
+    }
+    #promocion .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .conte{
+        margin:60px;
+    }
+    .conte img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border:7px solid grey;
+    }
+
+
+    #ubicacion{
+        background: #FFF;
+        color: purple;
+        text-align: center;
+        padding: 50px;
+    }
+    #ubicacion h1{
+        font-size: 20;
+       font-weight: bold;
+        text-transform: uppercase;
+
+    }
+    #ubicacion .contenedor{
+        display: flex;
+        padding: 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #ubicacion.contenedor iframe{
+    width:45%;
+    border:10px solid purple;
+    }
+    #ubicacion.contenedor p{
+        padding:40px;
+        width:50%;
+    }
+    .conten{
+        margin:60px;
+    }
+    .conten img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border:7px solid purple;
+    }
+    footer{
+        background: grey;
+    }
+    footer .contenedor{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        padding-bottom:30px;
+        color:purple;
+    }
+    .copy{
+        font-size:20px;
+        padding:20px;
+    }
+    .red-social{
+        width:100%;
+        text-align:center;
+        font-size:30px;
+    }
+    .red-social a{
+        color:#fff;
+        text-decoration:none;
     }
